@@ -1,0 +1,21 @@
+#D1{
+    width: 900px;
+    height: 700px;
+    background-image: url(P2.jpg);
+    background-size: cover;
+}
+#D2{
+    width: 900px;
+    height: 700px;
+    background-image: url(P1.jpg);
+    background-size: cover;
+}
+#D3{
+    width: 900px;
+    height: 700px;
+    background-image: url(P3.jpg);
+    background-size: cover;
+}
+#D4{
+    width: 900px;
+}

@@ -1,0 +1,692 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    width: 100%;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.max-width {
+    padding: 0 80px;
+    margin: auto;
+}
+
+.navbar {
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+    padding: 15px 0;
+    font-family: 'Ubuntu', sans-serif;
+    transition: all 0.3s ease;
+    background-color: cadetblue;
+}
+
+.navbar.sticky {
+    padding: 15px 0;
+    background: rgb(11, 80, 83);
+}
+
+.navbar .max-width {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo a {
+    list-style: none;
+    width: 200px;
+    color: rgb(16, 59, 65);
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.navbar .menu li {
+    list-style: none;
+    display: inline-block;
+}
+
+.navbar .menu li a {
+    display: block;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 25px;
+    transition: color 0.3s ease;
+}
+
+.navbar .menu li a:hover {
+    color: rgb(4, 84, 86);
+}
+
+.navbar.sticky .menu li a:hover {
+    color: #fff;
+}
+
+.home {
+    display: flex;
+    background: url() no-repeat center;
+    height: 100vh;
+    color: #fff;
+    min-height: 500px;
+   
+}
+
+.home .home-content .text-1 {
+    font-size: 27px;
+    color: rgb(6, 79, 82);
+}
+
+.home .home-content .text-2 {
+    font-size: 75px;
+    font-weight: 600;
+    margin-left: -3px;
+    color: rgb(5, 78, 81);
+}
+
+.title {
+    display: inline-block;
+    width: 80px;
+    margin-top: 125px;
+    margin-left: 640px;
+    color: #fff;
+    font-size: 40px;
+    text-align: center;
+}
+
+.Img1 {
+    margin-top: 45px;
+    margin-left: 582px;
+}
+
+.Img2 {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    object-fit: cover;
+}
+
+.SecA1 {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 25px;
+    margin-top: 35px;
+}
+
+.SecA2 {
+    width: 220px;
+    color: rgb(255, 255, 255);
+    margin: -5px 584px;
+    font-size: 15px;
+}
+
+.SecA3 {
+    width: 123px;
+    display: inline-block;
+    color: rgb(255, 255, 255);
+    margin: 0px 584px;
+    justify-content: space-between;
+}
+
+.SecA4 {
+    display: inline-block;
+    color: rgb(251, 247, 247);
+    margin: 0px 584px;
+    justify-content: space-between;
+}
+
+.Intro {
+    background-color: rgb(56, 105, 107);
+    margin-top: 0px;
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.Hr1 {
+    width: 350px;
+    margin: 22px 537px;
+}
+
+.Hr2 {
+    width: 350px;
+    margin: 22px 537px;
+}
+
+.Section2 {
+    background-color: #fff;
+    color: rgb(0, 0, 0);
+    width: 100%;
+    height: 100vh;
+    margin-top: 0px;
+}
+
+.Section2 .secB1 {
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    font-size: 40px;
+    top: 80px;
+    left: 390px;
+}
+
+.secB2 {
+    display: inline-block;
+    position: relative;
+    top: 200px;
+    left: 85px;
+    font-size: 35px;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+}
+
+.secB3 {
+    display: inline-block;
+    position: relative;
+    top: 225px;
+    left: -231px;
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+}
+
+.Hr3 {
+    position: relative;
+    width: 445px;
+    left: 235px;
+    top: 245px;
+}
+
+.secB4 {
+    display: inline-block;
+    position: relative;
+    top: 260px;
+    left: 255px;
+    font-size: 35px;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+}
+
+.secB5 {
+    display: inline-block;
+    position: relative;
+    top: 285px;
+    left: -100px;
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+}
+
+.SecB6 {
+    display: inline-block;
+    position: relative;
+    top: 150px;
+    left: 280px;
+    width: 950px;
+    height: 75vh;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgb(17, 126, 102);
+}
+
+.contact {
+    background-color: rgb(53, 83, 84);
+    color: white;
+    height: 100vh;
+}
+
+.secC1 {
+    display: inline-block;
+    position: relative;
+    font-size: 40px;
+    top: 130px;
+    left: 590px;
+    text-align: center;
+}
+
+.secC2 {
+    display: inline-block;
+    position: relative;
+    font-size: 20px;
+    top: 295px;
+    left: 70px;
+}
+
+.secC3 {
+    display: inline-block;
+    position: relative;
+    font-size: 20px;
+    top: 347px;
+    left: -130px
+}
+
+.secC4 {
+    display: inline-block;
+    position: relative;
+    font-size: 20px;
+    top: 400px;
+    left: -330px;
+}
+
+.secC5 {
+    display: inline-block;
+    position: relative;
+    top: 250px;
+    left: 940px;
+}
+
+.secC6 {
+    display: inline-block;
+    position: relative;
+    top: 454px;
+    left: -709px;
+}
+
+.secC6 ul li {
+    margin-left: 55px;
+    list-style: none;
+    display: inline-block;
+}
+
+.L1 a {
+    color: #fff;
+    font-size: 20px;
+}
+
+.L2 a {
+    color: #fff;
+    font-size: 20px;
+}
+
+.L3 a {
+    color: #fff;
+    font-size: 20px;
+}
+
+.L4 a {
+    color: #fff;
+    font-size: 20px;
+}
+
+.contact .field {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.contact .input,
+.contact textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid lightgrey;
+    border-radius: 6px;
+    outline: none;
+    font-size: 17px;
+    font-family: 'Poppins', sans-serif;
+    transition: all 0.3s ease;
+}
+
+.contact .textarea {
+    height: 100px;
+}
+
+.contact .submit-btn {
+    color: #fff;
+    display: block;
+    width: 160px;
+    height: 45px;
+    margin-top: 20px;
+    outline: none;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 6px;
+    cursor: pointer;
+    background: rgb(74, 99, 106);
+    border: 2px solid rgb(74, 99, 106);
+    transition: all 0.3s ease;
+}
+
+.contact .submit-btn:hover {
+    color: rgb(120, 200, 214);
+    background: none;
+}
+
+.foot1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 250px;
+    background-color: black;
+    color: white;
+}
+
+.Ftdiv1 {
+    font-size: 20px;
+    color: white;
+    margin-top: 30px;
+}
+
+.Ftdiv2 {
+    margin-top: 20px;
+}
+
+.Ftdiv2 ul li {
+    list-style: none;
+    display: inline-block;
+    margin-left: 15px;
+}
+
+.Ftdiv2 ul li a {
+    color: white;
+    font-size: 20px;
+}
+
+.Span1 {
+    display: inline-block;
+    color: white;
+    font-size: 18px;
+    margin-top: 45px;
+}
+
+.Ftdiv {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Ftdiv ul li {
+    list-style: none;
+    margin: 5px;
+}
+
+.Ftdiv ul li a {
+    color: white;
+    font-size: 17px;
+}
+
+.li1,
+.li2 {
+    margin-left: 20px;
+}
+
+/* Media Queries */
+@media screen and (max-width: 1200px) {
+    .max-width {
+        padding: 0 50px;
+    }
+
+    .title {
+        margin-left: 480px;
+    }
+
+    .Img1 {
+        margin-left: 432px;
+    }
+
+    .SecA2 {
+        margin: 5px 435px;
+    }
+
+    .SecA3,
+    .SecA4 {
+        margin: 0 435px;
+    }
+
+    .Section2 .secB1 {
+        left: 290px;
+    }
+
+    .secB2 {
+        top: 245px;
+        left: 40px;
+    }
+
+    .secB3 {
+        top: 270px;
+        left: -276px;
+    }
+
+    .Hr3 {
+        left: 200px;
+        top: 300px;
+    }
+
+    .secB4 {
+        top: 335px;
+        left: 212px;
+    }
+
+    .secB5 {
+        top: 360px;
+        left: -50px;
+    }
+
+    .secC1 {
+        left: 480px;
+    }
+
+    .secC2 {
+        top: 245px;
+        left: 20px;
+    }
+
+    .secC3 {
+        top: 290px;
+        left: -114px;
+    }
+
+    .secC4 {
+        top: 335px;
+        left: -295px;
+    }
+
+    .secC5 {
+        top: 230px;
+        left: 630px;
+    }
+
+    .secC6 {
+        top: 440px;
+        left: -431px;
+    }
+
+    .foot1 {
+        height: 400px;
+    }
+
+    .Ftdiv1 {
+        margin-top: 50px;
+    }
+
+    .Span1 {
+        margin-top: 40px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .max-width {
+        padding: 0 30px;
+    }
+
+    .title {
+        margin-left: 280px;
+    }
+
+    .Img1 {
+        margin-left: 242px;
+    }
+
+    .SecA2 {
+        margin: 5px 245px;
+    }
+
+    .SecA3,
+    .SecA4 {
+        margin: 0 245px;
+    }
+
+    .Section2 .secB1 {
+        left: 140px;
+    }
+
+    .secB2 {
+        top: 245px;
+        left: 0;
+    }
+
+    .secB3 {
+        top: 270px;
+        left: -396px;
+    }
+
+    .Hr3 {
+        left: 120px;
+        top: 300px;
+    }
+
+    .secB4 {
+        top: 335px;
+        left: 132px;
+    }
+
+    .secB5 {
+        top: 360px;
+        left: -50px;
+    }
+
+    .secC1 {
+        left: 280px;
+    }
+
+    .secC2 {
+        top: 225px;
+        left: 10px;
+    }
+
+    .secC3 {
+        top: 255px;
+        left: -114px;
+    }
+
+    .secC4 {
+        top: 290px;
+        left: -295px;
+    }
+
+    .secC5 {
+        top: 200px;
+        left: 480px;
+    }
+
+    .secC6 {
+        top: 370px;
+        left: -431px;
+    }
+
+    .foot1 {
+        height: 500px;
+    }
+
+    .Ftdiv1 {
+        margin-top: 70px;
+    }
+
+    .Span1 {
+        margin-top: 60px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .max-width {
+        padding: 0 20px;
+    }
+
+    .title {
+        margin-left: 180px;
+    }
+
+    .Img1 {
+        margin-left: 142px;
+    }
+
+    .SecA2 {
+        margin: 5px 145px;
+    }
+
+    .SecA3,
+    .SecA4 {
+        margin: 0 145px;
+    }
+
+    .Section2 .secB1 {
+        left: 40px;
+    }
+
+    .secB2 {
+        top: 225px;
+        left: -40px;
+    }
+
+    .secB3 {
+        top: 250px;
+        left: -516px;
+    }
+
+    .Hr3 {
+        left: 60px;
+        top: 280px;
+    }
+
+    .secB4 {
+        top: 315px;
+        left: 72px;
+    }
+
+    .secB5 {
+        top: 340px;
+        left: -30px;
+    }
+
+    .secC1 {
+        left: 180px;
+    }
+
+    .secC2 {
+        top: 195px;
+        left: -10px;
+    }
+
+    .secC3 {
+        top: 225px;
+        left: -114px;
+    }
+
+    .secC4 {
+        top: 260px;
+        left: -295px;
+    }
+
+    .secC5 {
+        top: 170px;
+        left: 330px;
+    }
+
+    .secC6 {
+        top: 350px;
+        left: -431px;
+    }
+
+    .foot1 {
+        height: 600px;
+    }
+
+    .Ftdiv1 {
+        margin-top: 90px;
+    }
+
+    .Span1 {
+        margin-top: 80px;
+    }
+}
